@@ -1,0 +1,19 @@
+<template>
+  <v-app>
+    <v-main>
+      <Calendar />
+    </v-main>
+  </v-app>
+</template>
+
+<script>
+import Calendar from "./views/Calendar";
+
+export default {
+  name: "App",
+
+  components: {
+    Calendar,
+  },
+};
+</script>
